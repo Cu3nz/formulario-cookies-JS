@@ -156,7 +156,7 @@ function setCookie(cname, cvalue) {
 
   } else { //? Si no hay ningun error, muestro un mensaje por pantalla de que se han guardado y las guardo con setcookie
 
-    console.log('%cSe han guardado las cookies de forma exitosa', 'color: green; font-size: 16px;');
+    console.log('%cSe han guardado las cookies de forma exitosa', 'color: green; font-size: 17px;');
     setCookie("nombre" , input_nombre , 1); // Almacena el nombre que ha introducido el usuario por el input durante 1 hora
     setCookie("apellidos" , input_apellidos , 1); // Almacena el Apellido que ha introducido el usuario por el input durante 1 hora
     setCookie("dni" , input_dni , 1); // Almacena el dni que ha introducido el usuario por el input durante 1 hora
