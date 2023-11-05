@@ -144,7 +144,7 @@ function setCookie(cname, cvalue) {
   //!  El nombre, apellidos dni telefono y email no pueden estar vacios 
   if (input_nombre == "" || input_apellidos == "" || input_dni == "" || input_telefono == "" || input_email == ""){
     problemaValidacion = true;
-    console.log("%cError: No puede haber ningun campo vacio", "color: orange; font-size:16px;");
+    console.log("%cError: No puede haber ningun campo vacio", "color: orange; font-size:17px;");
   }
 
     
