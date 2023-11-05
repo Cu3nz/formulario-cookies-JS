@@ -152,7 +152,7 @@ function setCookie(cname, cvalue) {
   //? Si hay algun problema de validacion, muestro un mensaje por pantalla de que hay un error y que no se han almacenado las cookies 
 
   if (problemaValidacion){
-    console.log('%c ***** Error no se han podido almacenar las cookies, valida tus datos e intentalo de nuevo  ', 'color: red; font-size: 16px;');
+    console.log('%c ***** Error no se han podido almacenar las cookies, verifica tus datos con los errores mostrados por consola e intentalo de nuevo  ', 'color: red; font-size: 16px;');
 
   } else { //? Si no hay ningun error, muestro un mensaje por pantalla de que se han guardado y las guardo con setcookie
 
