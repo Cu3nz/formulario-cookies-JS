@@ -137,14 +137,14 @@ function setCookie(cname, cvalue) {
     console.log("%cError:  No hay texto entre el @ y el punto", "color: red; font-size: 16px; ");
     problemaValidacion = true; //? Existe un problema de validacion
   } else { //* Si no es porque el correo esta bien 
-    console.log("%cEl gmail es valido", "color: grenn;");
+    console.log("%cEl gmail es valido", "color: grenn; font-size:16px;");
   }
 
 
   //!  El nombre, apellidos dni telefono y email no pueden estar vacios 
   if (input_nombre == "" || input_apellidos == "" || input_dni == "" || input_telefono == "" || input_email == ""){
     problemaValidacion = true;
-    console.log("%cError: No puede haber ningun campo vacio", "color: red;");
+    console.log("%cError: No puede haber ningun campo vacio", "color: orange; font-size:16px;");
   }
 
     
