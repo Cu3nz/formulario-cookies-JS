@@ -137,7 +137,7 @@ function setCookie(cname, cvalue) {
     console.log("%cError:  No hay texto entre el @ y el punto", "color: red; font-size: 16px; ");
     problemaValidacion = true; //? Existe un problema de validacion
   } else { //* Si no es porque el correo esta bien 
-    console.log("%cEl gmail es valido", "color: grenn; font-size:16px;");
+    console.log("%cEl gmail es valido", "color: green; font-size:16px;");
   }
 
 
@@ -152,11 +152,11 @@ function setCookie(cname, cvalue) {
   //? Si hay algun problema de validacion, muestro un mensaje por pantalla de que hay un error y que no se han almacenado las cookies 
 
   if (problemaValidacion){
-    console.log('%c ***** Error no se han podido almacenar las cookies  ', 'color: red; font-size: 16px;');
+    console.log('%c ***** Error no se han podido almacenar las cookies, valida tus datos e intentalo de nuevo  ', 'color: red; font-size: 16px;');
 
   } else { //? Si no hay ningun error, muestro un mensaje por pantalla de que se han guardado y las guardo con setcookie
 
-    console.log('%cSe han guardado las cookies de forma exitosa', 'color: green; font-size: 20px;');
+    console.log('%cSe han guardado las cookies de forma exitosa', 'color: green; font-size: 16px;');
     setCookie("nombre" , input_nombre , 1); // Almacena el nombre que ha introducido el usuario por el input durante 1 hora
     setCookie("apellidos" , input_apellidos , 1); // Almacena el Apellido que ha introducido el usuario por el input durante 1 hora
     setCookie("dni" , input_dni , 1); // Almacena el dni que ha introducido el usuario por el input durante 1 hora
