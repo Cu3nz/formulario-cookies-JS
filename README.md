@@ -5,7 +5,8 @@ Este script JavaScript maneja la creación y gestión de cookies para almacenar 
 
 Este proyecto implementa un sistema de registro de usuarios sencillo pero efectivo, donde se recopilan datos del usuario a través de un formulario HTML. Los datos ingresados son validados utilizando JavaScript y, una vez verificados, se almacenan en cookies para una persistencia temporal.
 
-![Captura de pantalla 2023-11-05 a las 17 42 17](https://github.com/Cu3nz/formulario-cookies-JS/assets/145379555/7f7fec83-1fdc-42e2-9445-88d5b8088d4a)
+
+![Captura de pantalla 2023-11-05 a las 17 42 17](https://github.com/Cu3nz/formulario-cookies-JS/assets/145379555/527eb2d9-4be0-4f47-a3c0-30429c91872e)
 
 
 
