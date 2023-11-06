@@ -365,6 +365,8 @@ function eliminar_cookies(){
 //   }
 // }
 
+//todo Sergio
+
 
 
 
