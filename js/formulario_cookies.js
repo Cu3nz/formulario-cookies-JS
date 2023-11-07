@@ -288,7 +288,9 @@ function setCookie(cname, cvalue) {
       setCookie("dni" , input_dni , 1); // Almacena el dni que ha introducido el usuario por el input durante 1 hora
       setCookie("telefono" , input_telefono , 1); // Almacena el telefono que ha introducido el usuario por el input durante 1 hora
       setCookie("email" , input_email , 1); // Almacena el email que ha introducido el usuario por el input durante 1 hora
-      //! falta la fecha tengo que hacer validacion.
+      setCookie("Fecha" , fechaInput , 1);
+      
+      
   }
   }
 
@@ -302,7 +304,8 @@ function setCookie(cname, cvalue) {
       apellidos:getCookie("apellidos"),
       dni:getCookie("dni"),
       telefono:getCookie("telefono"),
-      email:getCookie("email")
+      email:getCookie("email"),
+      fechaNacimiento:getCookie("Fecha")
     };
   }
 

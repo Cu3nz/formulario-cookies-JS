@@ -68,6 +68,7 @@
         <div class="datos-usuario" id="mostrar_dni"></div>
         <div class="datos-usuario" id="mostrar_telefono"></div>
         <div class="datos-usuario" id="mostrar_email"></div>
+        <div class="datos-usuario" id="mostrar_fechaNacimiento"></div>
         <button class="boton-cerrar" onclick="window.close();">Cerrar Ventana</button>
     </div>
 
@@ -80,6 +81,7 @@
             document.getElementById("mostrar_dni").textContent = "DNI: " + datos.dni; //datos.dni viene de la funcion devolver, direccion: document.getElementById("direccionInput").value,
             document.getElementById("mostrar_telefono").textContent = "Teléfono: " + datos.telefono;// datos.email viene de la funcion devolver edad: document.getElementById("edadInput").value,
             document.getElementById("mostrar_email").textContent = "Email: " + datos.email;// datos.edad viene de la funcion devolver email: document.getElementById("email_id").value*/
+            document.getElementById("mostrar_fechaNacimiento").textContent = "Fecha de nacimiento: " + datos.fechaNacimiento;// datos.edad viene de la funcion devolver email: document.getElementById("email_id").value*/
         });
     </script>
 </body>
